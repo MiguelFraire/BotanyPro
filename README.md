@@ -6,6 +6,17 @@ BotanyPro is an application that allows a user to snap an image of a flower; ret
 
 CocoaPods dependencies: AlamoFire, SwiftyJSON, SDWebImage
 
+```Podfile
+target 'BotanyPro' do
+  use_frameworks!
+
+  # Pods for BotanyPro
+	pod 'Alamofire', '~> 5.2'
+	pod 'SwiftyJSON'
+  pod 'SDWebImage'
+end
+```
+
 ## About
 - Converted a Caffe Model into an MLModel which classifies images taken from the phone’s camera
 - Sourced information from wikipedia through a REST API and parsed data using Swift’s native decodable
