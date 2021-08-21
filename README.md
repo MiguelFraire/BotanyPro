@@ -13,7 +13,7 @@ target 'BotanyPro' do
   # Pods for BotanyPro
 	pod 'Alamofire', '~> 5.2'
 	pod 'SwiftyJSON'
-  pod 'SDWebImage'
+  	pod 'SDWebImage'
 end
 ```
 
