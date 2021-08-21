@@ -8,12 +8,12 @@ CocoaPods dependencies: AlamoFire, SwiftyJSON, SDWebImage
 
 ```Podfile
 target 'BotanyPro' do
-  use_frameworks!
+	use_frameworks!
 
-  # Pods for BotanyPro
+	# Pods for BotanyPro
 	pod 'Alamofire', '~> 5.2'
 	pod 'SwiftyJSON'
-  	pod 'SDWebImage'
+	pod 'SDWebImage'
 end
 ```
 
